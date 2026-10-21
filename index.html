@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RED-Nord | Energie pentru comunitate</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="RED-Nord">
+
+        <div class="logo-text">
+            <h1>RED NORD</h1>
+            <span>Energia rețelei inteligente</span>
+        </div>
+    </div>
+
+    <nav class="navigation">
+        <a href="#" class="active">ACASĂ</a>
+
+        <a href="#">
+            DESPRE NOI
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <a href="#">
+            TRANSPARENȚĂ
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <a href="#">
+            PENTRU CONSUMATORI
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <a href="#">
+            ACHIZIȚII
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <a href="#">
+            CENTRUL DE PRESĂ
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+
+        <a href="#">CONTACTE</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+</header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    DISTRIBUȚIA ENERGIEI ELECTRICE
+                </span>
+
+                <h2>
+                    Energie sigură
+                    <span>pentru comunitatea noastră</span>
+                </h2>
+
+                <p>
+                    Asigurăm distribuția sigură și continuă a energiei
+                    electrice în nordul Republicii Moldova, investind
+                    în rețele moderne și servicii de calitate.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-button">
+                        Despre RED-Nord
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                    <button class="secondary-button">
+                        Serviciile noastre
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ÎNTRERUPERI PROGRAMATE -->
+
+            <div class="outage-card">
+
+                <div class="outage-icon">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+
+                <div class="outage-title">
+
+                    <span class="status">
+                        ACTUALIZAT
+                    </span>
+
+                    <h3>
+                        Întreruperi programate
+                    </h3>
+
+                    <p>
+                        Consultă graficul întreruperilor planificate
+                        din localitățile din zona de activitate RED-Nord.
+                    </p>
+
+                </div>
+
+
+                <div class="location-search">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <input
+                        type="text"
+                        id="locationInput"
+                        placeholder="Caută localitatea..."
+                    >
+
+                    <button id="searchOutage">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+
+                <button class="outage-link">
+
+                    <i class="fa-regular fa-calendar"></i>
+
+                    Vezi graficul complet al întreruperilor
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+                <div id="outageResult"></div>
+
+            </div>
+
+        </section>
+
+        <section class="statistics-section">
+
+            <div id="statistics" class="statistics-container">
+            </div>
+
+        </section>
+
+
+        <section class="services-section">
+
+            <div class="section-header">
+
+                <div>
+                    <span class="section-label">
+                        SERVICII PENTRU CONSUMATORI
+                    </span>
+
+                    <h2>
+                        Cum te putem ajuta?
+                    </h2>
+                </div>
+
+                <a href="#">
+                    Vezi toate serviciile
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div id="services" class="services-container">
+            </div>
+
+        </section>
+
+
+        <section class="news-section">
+
+            <div class="section-header">
+
+                <div>
+                    <span class="section-label">
+                        NOUTĂȚI ȘI INFORMAȚII
+                    </span>
+
+                    <h2>
+                        Anunțuri
+                    </h2>
+                </div>
+
+                <a href="#">
+                    Vezi toate anunțurile
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div id="news" class="news-container">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h2>RED NORD</h2>
+
+                <p>
+                    Energia rețelei inteligente
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Companie</h3>
+
+                <a href="#">Despre noi</a>
+                <a href="#">Transparență</a>
+                <a href="#">Achiziții</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Consumatori</h3>
+
+                <a href="#">Racordare la rețea</a>
+                <a href="#">Întreruperi programate</a>
+                <a href="#">Solicitări și sesizări</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <p>📞 0 231 24 201</p>
+                <p>✉️ office@rednord.md</p>
+                <p>📍 Bălți, Republica Moldova</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © 2026 RED-Nord. Toate drepturile rezervate.
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
