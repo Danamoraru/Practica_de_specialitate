@@ -1,29 +1,29 @@
-# RED-Nord — prototip educațional
+# Site RED-Nord
 
-Prototip educațional pentru o experiență RED-Nord redesenată. Formularul „Aviz de racordare” este împărțit în patru pași: datele solicitantului, locul și tipul racordării, documente și verificare. Datele rămân în browser până la configurarea endpointului de transmitere; fără endpoint formularul nu expediază nimic. Informațiile despre acte sunt orientative și trebuie verificate înainte de depunerea unei solicitări reale.
+Acest proiect este o variantă nouă a site-ului RED-Nord. Aici găsești servicii, anunțuri, informații despre întreruperi și pașii pentru avizul de racordare.
 
-Pagina de întreruperi folosește un extras local selectat din programele oficiale pentru Bălți și Sîngerei, săptămâna 2–8 noiembrie 2026. Acest extras nu se actualizează automat și nu acoperă toate filialele; pagina indică această limitare.
+## Cum pornești site-ul
 
-## Pornire
+1. Deschide proiectul în terminal și instalează fișierele necesare:
 
-Instalează dependențele o singură dată:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm install
-```
+2. Pornește datele demonstrative într-un terminal:
 
-Pornește API-ul JSON Server într-un terminal:
+   ```bash
+   npm run api
+   ```
 
-```bash
-npm run api
-```
+3. Deschide un al doilea terminal și pornește site-ul:
 
-Pornește aplicația Vite într-un al doilea terminal:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run dev
-```
+4. Deschide în browser adresa pe care ți-o arată Vite (de obicei `http://127.0.0.1:5173`).
 
-Deschide adresa locală afișată de Vite. Datele demonstrative se citesc din `db.json`; API-ul JSON Server este configurat doar pentru citire și ascultă pe `127.0.0.1`. Harta folosește Leaflet și plăcile OpenStreetMap; necesită conexiune la internet.
+Datele de exemplu sunt în `db.json`. Întreruperile afișate sunt doar un extras pentru Bălți și Sîngerei din perioada 2–8 noiembrie 2026 și nu se actualizează singure.
 
-Pentru integrarea transmiterii, setează `VITE_APPLICATION_ENDPOINT` într-un fișier `.env.local` către un backend securizat care acceptă `multipart/form-data`. Endpointul trebuie să valideze câmpurile și fișierul din nou pe server, să limiteze dimensiunea și tipul fișierului, să prevină CSRF/spam și să gestioneze în siguranță datele cu caracter personal. Cheile secrete nu se pun în variabile `VITE_*`; acestea sunt vizibile în browser.
+Formularul de aviz verifică informațiile și fișierul ales, dar nu trimite cererea până nu este legat de un serviciu de trimitere. Informațiile despre actele necesare sunt orientative; verifică-le înainte de o solicitare reală.
