@@ -1,0 +1,432 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Întreruperi programate",
+      "description": "Consultă lucrările după raion și dată, cu intervalul și localitatea afectată.",
+      "icon": "fa-calendar-days",
+      "url": "/intreruperi",
+      "action": "Caută lucrări"
+    },
+    {
+      "id": 2,
+      "title": "Racordare la rețea",
+      "description": "Află condițiile, etapele și actele necesare pentru racordarea locului de consum.",
+      "icon": "fa-plug",
+      "url": "/aviz-racordare",
+      "action": "Vezi ghidul"
+    },
+    {
+      "id": 4,
+      "title": "Comunică un deranjament",
+      "description": "Găsește numărul grupului de deservire și contactează oficiul zonei tale.",
+      "icon": "fa-triangle-exclamation",
+      "url": "/contact",
+      "action": "Vezi contactele"
+    },
+    {
+      "id": 5,
+      "title": "Notificări despre lucrări",
+      "description": "Află când și cum sunt comunicate întreruperile planificate.",
+      "icon": "fa-envelope",
+      "url": "/notificari",
+      "action": "Despre notificări"
+    },
+    {
+      "id": 7,
+      "title": "Întreruperi de manevră",
+      "description": "Află de ce pot apărea întreruperi temporare în timpul manevrelor operative.",
+      "icon": "fa-bolt",
+      "url": "/intreruperi-manevra",
+      "action": "Despre manevre"
+    },
+    {
+      "id": 8,
+      "title": "Tarife și servicii",
+      "description": "Vezi ce tipuri de tarife și servicii sunt reglementate.",
+      "icon": "fa-coins",
+      "url": "/tarife",
+      "action": "Vezi informațiile"
+    }
+  ],
+  "stats": [
+    { "id": 1, "value": 15, "suffix": "", "label": "raioane în zona de deservire", "icon": "fa-map-location-dot" },
+    { "id": 2, "value": 6, "suffix": "", "label": "servicii în această platformă", "icon": "fa-layer-group" },
+    { "id": 3, "value": 21, "suffix": "", "label": "lucrări în programul demonstrativ", "icon": "fa-calendar-check" },
+    { "id": 4, "value": 24, "suffix": "/24", "label": "asistență pentru deranjamente", "icon": "fa-headset" }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "category": "Siguranță electrică",
+      "title": "Reguli de siguranță electrică în timpul vacanței de toamnă",
+      "date": "2026-10-27",
+      "description": "Recomandări pentru copii și părinți în apropierea liniilor și instalațiilor electrice.",
+      "image": "https://rednord.md/storage/app/public/25278/v.png",
+      "safetyRules": [
+        "Nu vă apropiați și nu atingeți niciodată conductoarele electrice rupte sau căzute la pământ.",
+        "Nu vă apropiați de posturile de transformare sau de alte instalații electrice.",
+        "Nu urcați pe stâlpii liniilor electrice și nu aruncați obiecte pe conductoarele electrice.",
+        "Nu vă jucați cu zmee, drone sau alte jucării zburătoare în apropierea liniilor electrice.",
+        "Nu urcați în copacii aflați în apropierea liniilor electrice și nu încercați să culegeți fructe din aceștia.",
+        "Nu vă adăpostiți de ploaie sub copaci aflați în apropierea liniilor electrice sau în posturile de transformare.",
+        "Nu atingeți aparatele electrice cu mâinile ude și nu utilizați echipamente electrice deteriorate."
+      ],
+      "warning": "Dacă observați un conductor electric căzut la pământ, păstrați o distanță de cel puțin 8 metri, nu încercați să-l atingeți sau să-l îndepărtați și anunțați imediat un adult.",
+      "closing": "Dragi copii, vă dorim o vacanță de toamnă frumoasă, plină de bucurii și, mai presus de toate, în siguranță!"
+    },
+    {
+      "id": 2,
+      "category": "Siguranță electrică",
+      "title": "Ce trebuie să faci dacă observi un conductor electric căzut la pământ?",
+      "date": "2026-10-22",
+      "description": "Un conductor căzut poate rămâne sub tensiune. Ține distanța, nu îl atinge și nu lăsa pe nimeni să se apropie.",
+      "image": "https://rednord.md/storage/app/public/25170/6ad9f800b176a_Format-site-2000x1000.jpg",
+      "content": "RED-Nord recomandă păstrarea unei distanțe de cel puțin 10 metri față de conductorul căzut. Nu atinge conductorul, obiectele aflate în contact cu el și nu încerca să remediezi defecțiunea. Avertizează persoanele din apropiere și anunță grupul de deservire; dacă există pericol iminent pentru viața oamenilor, apelează 112."
+    },
+    {
+      "id": 3,
+      "category": "Cooperare energetică",
+      "title": "RED-Nord și Moldelectrica au semnat Convenția de interacțiune",
+      "date": "2026-11-04",
+      "description": "Acordul stabilește modul de colaborare și coordonare dintre operatorii de distribuție și transport al energiei electrice.",
+      "image": "https://www.rednord.md/storage/app/public/25523/IMG_5781.jpg",
+      "content": "Convenția clarifică responsabilitățile celor doi operatori, procedurile de coordonare și schimbul de informații tehnice. Colaborarea vizează dirijarea operativă, planificarea funcționării rețelelor și gestionarea situațiilor care pot afecta alimentarea cu energie electrică."
+    },
+    {
+      "id": 4,
+      "category": "Investiții în rețea",
+      "title": "Lucrări de modernizare finalizate în raionul Șoldănești",
+      "date": "2026-10-30",
+      "description": "În Alcedar au fost modernizate branșamente și reconstruită o porțiune de linie electrică aeriană.",
+      "image": "https://rednord.md/storage/app/public/25411/1.jpg",
+      "content": "Conform Planului de investiții 2026, în satul Alcedar au fost modernizate 62 de branșamente și reconstruiți 3,204 km de linie electrică aeriană de 0,4 kV. În orașul Șoldănești a fost montat și un sector de 193 m de linie subterană de 10 kV. Valoarea totală a lucrărilor a fost de 674.077,98 lei."
+    }
+  ],
+  "outages": [
+    {
+      "id": 1,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-02",
+      "start": "08:30",
+      "end": "12:00",
+      "locality": "Bălți · str. Suceava, sectorul 1",
+      "work": "Mentenanță · PT288C13F15",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 2,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-02",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Sturzovca",
+      "work": "Demontarea utilajului · PT859ST5F1",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 3,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-02",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Iablona",
+      "work": "Mentenanță · PT700ST12",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 4,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-02",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Marandeni",
+      "work": "Lucrări de investiții · PT846RE2F2",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 5,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "12:00",
+      "locality": "Bălți · str. Suceava, sectorul 3",
+      "work": "Mentenanță · PT288C13F11",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 6,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Sturzovca",
+      "work": "Demontarea utilajului · PT822ST5F1",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 7,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Popovca",
+      "work": "Curățarea sanitară a arborilor · PT939RE5F2",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 8,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Iablona",
+      "work": "Mentenanță · PT731ST12, PT711ST12 și PT712ST12",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 9,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Octeabriskoe",
+      "work": "Demontarea utilajului · PT662BN3F2",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 10,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-04",
+      "start": "08:30",
+      "end": "12:00",
+      "locality": "Bălți · str. Dostoevski, Libertății, Mircea cel Bătrân și Viteazul M.",
+      "work": "Mentenanță · PT246CET79",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 11,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-04",
+      "start": "08:30",
+      "end": "12:00",
+      "locality": "Bălți · str. Bauman, Stere, Feroviarilor și Locomotivelor",
+      "work": "Mentenanță · PT279AG46",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 12,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-04",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Popovca",
+      "work": "Demontarea utilajului · PT939RE5F2",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 13,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-04",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Marandeni",
+      "work": "Lucrări de investiții · PT846RE2F2",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 14,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-05",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Corlăteni",
+      "work": "Mentenanță · PT533BL20F1",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 15,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-05",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Pervomaisc",
+      "work": "Curățarea sanitară a arborilor · PT759RE5",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 16,
+      "district": "Bălți",
+      "districtKey": "Balti",
+      "date": "2026-11-06",
+      "start": "08:30",
+      "end": "12:00",
+      "locality": "Bălți · str. Bulgara și Konev",
+      "work": "Mentenanță · PT253BL4",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 17,
+      "district": "Sîngerei",
+      "districtKey": "Singerei",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "13:00",
+      "locality": "Chișcăreni · Slobozia Chișcăreni",
+      "work": "Mentenanță · PT351CH8F1",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 18,
+      "district": "Sîngerei",
+      "districtKey": "Singerei",
+      "date": "2026-11-03",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Antonovca",
+      "work": "Mentenanță · PT178SG35",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 19,
+      "district": "Sîngerei",
+      "districtKey": "Singerei",
+      "date": "2026-11-04",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Sîngerei · str. Anton Crihan, sectorul 9",
+      "work": "Mentenanță · PT517SG351F8",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 20,
+      "district": "Sîngerei",
+      "districtKey": "Singerei",
+      "date": "2026-11-05",
+      "start": "08:30",
+      "end": "16:30",
+      "locality": "Bălășești",
+      "work": "Mentenanță · PT147SG35",
+      "sourceWeek": "02–08.11.2026"
+    },
+    {
+      "id": 21,
+      "district": "Sîngerei",
+      "districtKey": "Singerei",
+      "date": "2026-11-06",
+      "start": "08:00",
+      "end": "19:00",
+      "locality": "Coșcodeni",
+      "work": "Lucrări de investiții · PT314CD5F1",
+      "sourceWeek": "02–08.11.2026"
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "name": "Bălți",
+      "lat": 47.753,
+      "lng": 27.929
+    },
+    {
+      "id": 2,
+      "name": "Briceni",
+      "lat": 48.363,
+      "lng": 27.078
+    },
+    {
+      "id": 3,
+      "name": "Dondușeni",
+      "lat": 48.242,
+      "lng": 27.611
+    },
+    {
+      "id": 4,
+      "name": "Drochia",
+      "lat": 48.035,
+      "lng": 27.812
+    },
+    {
+      "id": 5,
+      "name": "Edineț",
+      "lat": 48.172,
+      "lng": 27.303
+    },
+    {
+      "id": 6,
+      "name": "Fălești",
+      "lat": 47.576,
+      "lng": 27.712
+    },
+    {
+      "id": 7,
+      "name": "Florești",
+      "lat": 47.894,
+      "lng": 28.301
+    },
+    {
+      "id": 8,
+      "name": "Glodeni",
+      "lat": 47.775,
+      "lng": 27.518
+    },
+    {
+      "id": 9,
+      "name": "Ocnița",
+      "lat": 48.382,
+      "lng": 27.438
+    },
+    {
+      "id": 10,
+      "name": "Rezina",
+      "lat": 47.749,
+      "lng": 28.967
+    },
+    {
+      "id": 11,
+      "name": "Rîșcani",
+      "lat": 47.955,
+      "lng": 27.563
+    },
+    {
+      "id": 12,
+      "name": "Sîngerei",
+      "lat": 47.637,
+      "lng": 28.143
+    },
+    {
+      "id": 13,
+      "name": "Soroca",
+      "lat": 48.156,
+      "lng": 28.284
+    },
+    {
+      "id": 14,
+      "name": "Șoldănești",
+      "lat": 47.816,
+      "lng": 28.796
+    },
+    {
+      "id": 15,
+      "name": "Ungheni",
+      "lat": 47.21,
+      "lng": 27.8
+    }
+  ],
+  "messages": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "red-nord-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "api": "json-server --watch db.json --host 127.0.0.1 --port 3001 --read-only",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "leaflet": "^1.9.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.1",
+    "vite": "^6.0.5"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

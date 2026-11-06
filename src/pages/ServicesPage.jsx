@@ -1,0 +1,4 @@
+import React, { useEffect, useState } from 'react';
+import { getServices } from '../services/api.js';
+import ServiceCard from '../components/ServiceCard.jsx';
+export default function ServicesPage(){const [services,setServices]=useState([]),[error,setError]=useState('');useEffect(()=>{getServices().then(setServices).catch(()=>setError('Serviciile nu pot fi încărcate acum.'));},[]);return <main className="page-main"><div className="container"><div className="page-heading"><span className="eyebrow blue">Pentru consumatori</span><h1>Servicii și informații</h1><p>Alege subiectul pentru a vedea ghidul sau informațiile relevante.</p></div>{error&&<p className="inline-error">{error}</p>}<div className="service-grid">{services.map(service=><ServiceCard key={service.id} service={service}/>)}</div><p className="data-note">Ghidul de racordare este informativ. Cererile reale se depun prin canalele puse la dispoziție de RED-Nord.</p></div></main>;}
