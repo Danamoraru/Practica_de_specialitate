@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrație cu un miniexcavator</title>
+  <desc id="desc">Miniexcavator albastru pe un șantier stilizat, lângă o linie electrică.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8f5fc"/><stop offset="1" stop-color="#c8e7f3"/></linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d7e8e3"/><stop offset="1" stop-color="#b8d2cb"/></linearGradient>
+  </defs>
+  <rect width="1200" height="600" rx="26" fill="url(#sky)"/>
+  <circle cx="1000" cy="112" r="52" fill="#fff" opacity=".72"/>
+  <path d="M0 390c150-48 247-41 393-8 146 34 261 6 407-29 145-35 276-22 400 21v226H0Z" fill="url(#ground)"/>
+  <path d="M0 461c212-32 355 33 552 0s386-32 648 12v127H0Z" fill="#a9c8bc" opacity=".55"/>
+  <g fill="none" stroke="#315f89" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M890 368V102m-35 45h72m-67 0-27 56m47-56 32 56m-82 0h95" stroke-width="12"/>
+    <path d="M890 146C765 118 698 128 611 165" stroke-width="4"/>
+  </g>
+  <g stroke="#173f6d" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M294 388h334l-30 69H322Z" fill="#173f6d"/>
+    <path d="M342 386c5-63 49-102 122-102h87c36 0 65 23 73 58l13 44Z" fill="#36a6c7"/>
+    <path d="M433 284v-62h101c30 0 52 19 57 48l3 14Z" fill="#e8f5fc"/>
+    <path d="M565 283h75l49-73 38 15-52 111H578" fill="none"/>
+    <path d="M725 225l59-101 24 14-50 111" fill="none"/>
+    <path d="M803 138l77 50-18 30-76-45" fill="none"/>
+    <path d="M317 423h290" stroke="#8dcbd8" stroke-width="11"/>
+  </g>
+  <g fill="#fff"><circle cx="386" cy="427" r="15"/><circle cx="553" cy="427" r="15"/></g>
+  <g fill="#315f89" opacity=".14"><path d="M112 352h165v13H112zm37-28h111v13H149z"/></g>
+  <text x="74" y="95" fill="#123b6d" font-family="Arial,sans-serif" font-size="27" font-weight="700" letter-spacing="4">INVESTIȚII ÎN REȚEA</text>
+  <text x="74" y="135" fill="#58728a" font-family="Arial,sans-serif" font-size="19">Ilustrație • Oficiul raional Ungheni</text>
+</svg>
